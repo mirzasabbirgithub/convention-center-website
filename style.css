@@ -1,13 +1,22 @@
 *{margin:0; 
     padding:0; 
     box-sizing: border-box;}
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 
+.font-new h1{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
 .package-button{
     background-color: #f8ecec;
     color: #0707be;
     padding: 10px;
     width: 100%;
     border-color: #f8ecec;
+}
+
+.banner-text{
+    font-size: 2.5vw;
 }
 
 .space-class{
