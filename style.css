@@ -1,4 +1,6 @@
-*{margin:0; padding:0; box-sizing: border-box;}
+*{margin:0; 
+    padding:0; 
+    box-sizing: border-box;}
 
 .package-button{
     background-color: #f8ecec;
@@ -6,12 +8,6 @@
     padding: 10px;
     width: 100%;
     border-color: #f8ecec;
-}
-
-
-.package-title{
-    margin-top: 30px;
-    margin-bottom: 40px;
 }
 
 .space-class{
