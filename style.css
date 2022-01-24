@@ -1,23 +1,33 @@
+*{margin:0; padding:0; box-sizing: border-box;}
+
 .package-button{
     background-color: #f5d6d6;
     color: #0707be;
     padding: 10px;
-    width: 70%;
+    width: 100%;
     border-color: #f5d6d6;
 }
 
 .fa-check-circle{
-    color: #4e32e7;
+    background-color: #4e32e7;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
     
 }
 
 .package-title{
-    margin-top: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
+.space-class{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 footer{
     margin-top: 30px;
     background-color: black;
     width: 100%;
-    height: 300px;
+
 }
