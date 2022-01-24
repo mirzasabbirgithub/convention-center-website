@@ -1,6 +1,9 @@
 *{margin:0; 
     padding:0; 
     box-sizing: border-box;}
+
+    html,body{margin:0; padding:0;}
+    
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 
@@ -15,9 +18,12 @@
     border-color: #f8ecec;
 }
 
-.banner-text{
-    font-size: 2.5vw;
-}
+@media screen and (max-width: 575.98px) {
+    .banner-text{
+        font-size: 2.5vw;
+    }
+  }
+
 
 .space-class{
     margin-top: 40px;
@@ -26,6 +32,6 @@
 footer{
     margin-top: 50px;
     background-color: black;
-    width: 100%;
+    width: auto;
 
 }
